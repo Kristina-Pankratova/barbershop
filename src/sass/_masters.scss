@@ -1,0 +1,96 @@
+// masters
+.masters {
+  background-color: #f7f7f7;
+  padding-top: 84px;
+  padding-bottom: 84px;
+  background-color: $accent-background-color;
+  &__list {
+    @extend %list;
+  }
+  &__heading {
+    @include font(600, 11px, 1.36, 0.1em);
+    display: inline-flex;
+    margin-bottom: 20px;
+    align-items: center;
+    text-transform: uppercase;
+    &:before {
+      content: '';
+      margin-right: 20px;
+      width: 60px;
+      height: 1px;
+      background-color: $main-color;
+    }
+  }
+  &__title {
+    @include font(700, 42px, 1.16, 0.05em);
+    font-family: raleway, sans-serif;
+    margin-bottom: 44px;
+  }
+  &__item {
+    margin-bottom: 64px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    & img {
+      @extend %image;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .barber {
+    margin-top: 30px;
+    text-align: center;
+    &__social-list {
+      @extend %list;
+      display: flex;
+      justify-content: center;
+    }
+    &__person {
+      @include font(400, 18px, 1.4, 0.02em);
+      margin-bottom: 8px;
+    }
+    &__spesialization {
+      @include font(400, 14px, 1.35, 0.02em);
+      margin-bottom: 30px;
+      color: $accent-text-color;
+    }
+    &__social-item:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+  .barber__link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: $social-background-color;
+  }
+}
+
+.masters-portfolio {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  &__item {
+    @extend %list;
+  }
+  & img {
+    @extend %image;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__heading {
+    @include font(600, 11px, 1.9, 0.1em);
+    display: inline-flex;
+    align-items: center;
+    text-transform: uppercase;
+    &:before {
+      content: '';
+      margin-right: 20px;
+      width: 60px;
+      height: 1px;
+      background-color: $main-color;
+    }
+  }
+}
