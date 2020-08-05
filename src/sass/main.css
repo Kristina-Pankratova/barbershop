@@ -1,1 +1,48 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@media screen and (min-width: 768px) {
+  .descroption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
+.description__picture {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .description__picture {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .descroption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
+.description__picture {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .description__picture {
+    display: block;
+  }
+}
+/*# sourceMappingURL=main.css.map */

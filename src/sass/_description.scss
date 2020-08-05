@@ -1,0 +1,25 @@
+.descroption {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+.description__picture {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+}
+.description__subtitle {
+  margin-bottom: 20px;
+}
+.description__title {
+  margin-bottom: 20px;
+}
+.description__desc {
+  margin-bottom: 20px;
+}
+.description__text {
+  margin-bottom: 40px;
+}
